@@ -1,0 +1,35 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+}
+.iz{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.iz > :nth-child(1){
+    grid-column: span 2;
+    border: 2px solid black;
+}
+.iz > :nth-child(2){
+    grid-row: span 2 ;
+    border: 2px solid black;
+}
+.iz > :nth-child(3){
+    
+    border: 2px solid black;
+}
+.iz > :nth-child(4){
+
+    border: 2px solid black;
+}
