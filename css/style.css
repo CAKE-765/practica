@@ -38,7 +38,7 @@
     border: 2px solid black;
 }
 .cuadros{
-    width: 99.5%;
+    width: 100%;
     height: 100%;
     display: grid;
     align-items: center;
@@ -59,8 +59,7 @@
     width: 100%;
     background-color: aqua;
     display: grid;
-    align-items: center;
-    justify-content: center;
+    
 }
 .circuferencia{
     display:flex;
@@ -74,31 +73,32 @@
     width: 200px;
     height: 200px;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   border: 3px solid black;
+  
     
 }
 .menu{
     width: 100%;
+    
 }
 .menu > :nth-child(1){
     height: 100px;
     width: 100%;
     background-color: blueviolet;
-    margin: 3px;
-
+   border: 2px solid black;
 }
 .menu > :nth-child(2){
     height: 100px;
     width: 100%;
     background-color: blueviolet;
-    margin: 3px;
+    border: 2px solid black;
+   
 }
 .menu > :nth-child(3){
     height: 100px;
     width: 100%;
     background-color: blueviolet;
-    margin: 3px;
+    border: 2px solid black;
 }
 .der{
     width: 50%;
